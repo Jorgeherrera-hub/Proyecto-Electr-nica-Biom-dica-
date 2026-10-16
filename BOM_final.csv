@@ -1,0 +1,22 @@
+﻿Referencias;Cantidad;Nombre real;Valor;Nombre KiCad del símbolo;Nombre KiCad de la huella;Notas
+C1;1;"Condensador polarizado radial 220 µF, 25 V; fabricante y número de parte por confirmar";220uF 25V;Device:C_Polarized;Capacitor_THT:CP_Radial_D8.0mm_P3.50mm;
+C2, C4, C6, C8, C9, C10, C11;7;"Condensador cerámico de disco THT 100nF; tensión nominal y número de parte por confirmar";100nF;Device:C;Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm;
+C3, C5, C7;3;"Condensador polarizado radial 10uF; tensión nominal y número de parte por confirmar";10uF;Device:C_Polarized;Capacitor_THT:CP_Radial_D5.0mm_P2.00mm;
+D1, D2;2;Diodo Schottky 1N5819, axial DO-41;1N5819;Device:D_Schottky;Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal;
+H1, H2, H3, H4;4;Huella de agujero de montaje M3, NPTH;M3;"— (huella mecánica; sin símbolo en netlist)";MountingHole:MountingHole_3.2mm_M3;"Huella mecánica; no forma parte de la netlist eléctrica."
+J1;1;"Bornera de 2 polos Altech AK300, paso 5,00 mm; número de parte comercial por confirmar";12V DC IN;Connector:Conn_01x02_Pin;TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree;"La huella guardada es TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree; difiere del identificador solicitado originalmente, pero representa el formato Altech AK300 de 2 pines y paso 5 mm."
+J_LCD;1;"Header macho THT vertical de 04 pines, paso 2,54 mm; número de parte por confirmar";LCD I2C 5V;Connector:Conn_01x04_Pin;Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;
+J_MOTOR;1;"Header macho THT vertical de 02 pines, paso 2,54 mm; número de parte por confirmar";MOTOR;Connector:Conn_01x02_Pin;Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+J_PROG;1;"Header macho THT vertical de 06 pines, paso 2,54 mm; número de parte por confirmar";UART PROGRAM;Connector:Conn_01x06_Pin;Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical;
+J_RPM;1;"Header macho THT vertical de 03 pines, paso 2,54 mm; número de parte por confirmar";RPM SENSOR 3V3;Connector:Conn_01x03_Pin;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+J_TEMP;1;"Header macho THT vertical de 03 pines, paso 2,54 mm; número de parte por confirmar";DS18B20;Connector:Conn_01x03_Pin;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+Q1;1;MOSFET canal N de nivel lógico IRLZ44N;IRLZ44N;Transistor_FET:IRLZ44N;Package_TO_SOT_THT:TO-220-3_Vertical;
+Q2, Q3;2;MOSFET canal N BSS138, SOT-23;BSS138;Transistor_FET:BSS138;Package_TO_SOT_SMD:SOT-23;
+R1, R2, R4, R6, R7, R8, R9, R10;8;"Resistencia axial THT 10k Ω; fabricante, tolerancia y potencia por confirmar";10k;Device:R;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+R3;1;"Resistencia axial THT 100 Ω; fabricante, tolerancia y potencia por confirmar";100;Device:R;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+R5;1;"Resistencia axial THT 4.7k Ω; fabricante, tolerancia y potencia por confirmar";4.7k;Device:R;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;
+SW_BOOT, SW_EN;2;"Pulsador táctil THT de 6 mm; número de parte por confirmar";RESET/BOOT;Switch:SW_Push;Button_Switch_THT:SW_PUSH_6mm;
+SW_ON, SW_REG;2;"Pulsador táctil THT de 6 mm; número de parte por confirmar";PUSHBUTTON;Switch:SW_Push;Button_Switch_THT:SW_PUSH_6mm;Ambos comparten el valor PUSHBUTTON.
+U1;1;"Módulo ESP32-WROOM-32 (Wi‑Fi/Bluetooth); fabricante Espressif";ESP32-WROOM-32;RF_Module:ESP32-WROOM-32;RF_Module:ESP32-WROOM-32;
+U2;1;Regulador conmutado OKI-78SR-5/1.5-W36-C;OKI-78SR-5/1.5-W36-C;Regulator_Linear:L7805;Package_TO_SOT_THT:TO-220-3_Vertical;El símbolo es Regulator_Linear:L7805, usado como sustituto por compatibilidad del pinout.
+U3;1;Regulador lineal LM1117T-3.3, encapsulado TO-220;LM1117T-3.3;Regulator_Linear:LM1117T-3.3;Package_TO_SOT_THT:TO-220-3_Vertical;"El pinout se toma del símbolo LM1117T-3.3; no es el pinout del 7805."

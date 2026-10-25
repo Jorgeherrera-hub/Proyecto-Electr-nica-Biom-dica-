@@ -1,0 +1,17 @@
+﻿Componente;Huella;Cantidad
+1 kΩ;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;1
+10 kΩ;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;3
+10 µF;Capacitor_THT:CP_Radial_D5.0mm_P2.00mm;2
+100 nF;Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm;7
+100 Ω;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;1
+1N5819;Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal;3
+220 µF/25V;Capacitor_THT:CP_Radial_D8.0mm_P3.50mm;1
+4,7 kΩ;Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal;3
+Arduino_Nano_v3.x;Module:Arduino_Nano;1
+BSS138;Package_TO_SOT_SMD:SOT-23;1
+Conn_01x03;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;2
+Conn_01x04_Pin;Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;1
+IRLZ44N;Package_TO_SOT_THT:TO-220-3_Vertical;1
+OKI-78SR-5/1.5-W36-C (L7805);Package_TO_SOT_THT:TO-220-3_Vertical;1
+PinHeader_1x02_P2.54mm_Vertical;Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;6
+Screw_Terminal_01x02;TerminalBlock:TerminalBlock_bornier-2_P5.08mm;1

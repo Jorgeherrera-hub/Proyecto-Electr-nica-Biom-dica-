@@ -661,7 +661,7 @@
         "uuid": "408c0b9b-6243-46a6-b02f-3125cc0037ea"
       }
     ],
-    "used_designators": "J1,R1-10,#FLG1-2,SW_EN1,D1-2,#PWR1-41,C1-11,J_LCD1,J_MOTOR1,J_PROG1,J_RPM1,J_TEMP1,Q1-3,SW_BOOT1,SW_ON1,SW_REG1,U1-3,A1",
+    "used_designators": "J1-3,R1-10,#FLG1-2,SW_EN1,D1-3,#PWR1-41,C1-11,J_LCD1,J_MOTOR1,J_PROG1,J_RPM1,J_TEMP1,Q1-3,SW_BOOT1,SW_ON1,SW_REG1,U1-3,A1,J_BTN_ON1,J_BTN_REG1,J_BTN_NAV1,J_BTN_RESET1",
     "variants": []
   },
   "sheets": [

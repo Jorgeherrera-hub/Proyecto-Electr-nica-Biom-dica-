@@ -2885,145 +2885,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "27"
 		(exclude_from_sim no)
@@ -3104,6 +2965,26 @@
 			)
 		)
 		(uuid "0cf0babe-5b50-4b7d-9af4-6cd356485259")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 169.926 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0eb09825-4b94-4c68-aa41-462601a3b43a")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 94.488 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12b9af65-ba9e-4356-a530-4c3fd12e4a4f")
 	)
 	(text "27"
 		(exclude_from_sim no)
@@ -3205,6 +3086,36 @@
 		)
 		(uuid "20b6fe25-754b-4bda-896b-246d99f0d135")
 	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 115.57 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2837812c-1ded-4204-81ae-0c002cea6727")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 117.602 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "293f8492-2e2a-4efe-ad2c-a06a1e587895")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 64.516 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c0ecc8c-5fdd-41bd-9460-13a04179ee37")
+	)
 	(text "Todos los pines marcados con x no se ocuparán"
 		(exclude_from_sim no)
 		(at 161.798 38.862 0)
@@ -3224,6 +3135,16 @@
 			)
 		)
 		(uuid "2f55d9d5-3b75-4f4a-bdbb-b4e6810879f0")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 119.38 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3806fc9b-f3aa-455e-a6bf-18db01e27735")
 	)
 	(text "18"
 		(exclude_from_sim no)
@@ -3264,6 +3185,16 @@
 			)
 		)
 		(uuid "41a16a72-0823-4835-945a-18ef55abb36f")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 136.398 99.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "421d5f64-ad81-4fb5-8fa1-e0ea2a352b69")
 	)
 	(text "32"
 		(exclude_from_sim no)
@@ -3435,6 +3366,16 @@
 		)
 		(uuid "7531124f-786a-4bc2-b361-66fc66b246f5")
 	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 75.184 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7929f660-7ae2-4584-b7ad-e9c2c40381dc")
+	)
 	(text "54"
 		(exclude_from_sim no)
 		(at 282.702 144.018 0)
@@ -3504,6 +3445,16 @@
 			)
 		)
 		(uuid "8ba8bf40-3779-4da8-b28c-b05b8848fb2d")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 40.64 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cc11764-c52d-4133-b4fd-ccef74ce1ada")
 	)
 	(text "43"
 		(exclude_from_sim no)
@@ -3615,6 +3566,26 @@
 		)
 		(uuid "b43758aa-33c5-48eb-985a-a6bd7021991e")
 	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 72.136 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bad75bee-ecd2-44ee-987b-8e5ea5d5c7a9")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 40.64 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "baf26589-2937-4ac0-aa17-fcd461655271")
+	)
 	(text "26\n"
 		(exclude_from_sim no)
 		(at 244.094 85.344 0)
@@ -3655,6 +3626,26 @@
 		)
 		(uuid "c767c74f-2f2c-4860-a0c4-8c31c699a8bc")
 	)
+	(text "11"
+		(exclude_from_sim no)
+		(at 40.64 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8f7fa12-b16c-4947-a932-dbb869451c1a")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 160.782 113.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9421b6e-0a10-4067-a48a-36ea55dabf06")
+	)
 	(text "52"
 		(exclude_from_sim no)
 		(at 241.808 98.044 0)
@@ -3675,6 +3666,16 @@
 		)
 		(uuid "d60eb8c1-a870-4d47-b3cb-0c9960c53c09")
 	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 40.64 121.158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dcb5145f-b103-45fc-afd5-2ef4c25c473e")
+	)
 	(text "C5 debe ir soldado al mismo nodo de +5V de la placa"
 		(exclude_from_sim no)
 		(at 42.926 118.618 0)
@@ -3694,6 +3695,16 @@
 			)
 		)
 		(uuid "de798336-61cc-49d9-a7b6-2d45771cf52b")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 40.894 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df7fc6be-0d34-425d-b8aa-b0efdd264075")
 	)
 	(text "23"
 		(exclude_from_sim no)
@@ -3724,6 +3735,16 @@
 			)
 		)
 		(uuid "e4000c20-3ea5-40f8-998c-b555825ae503")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 78.232 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5fdfbd0-3f48-417b-9deb-f0d9450d44c5")
 	)
 	(text "35"
 		(exclude_from_sim no)
@@ -5067,6 +5088,16 @@
 		)
 		(uuid "5586e807-717d-4253-a30b-4db9e313f2a5")
 	)
+	(label "+12V_IN"
+		(at 80.01 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56a6d49a-3769-4c89-90dc-078dc28a4f94")
+	)
 	(label "GATE_Q1"
 		(at 199.39 22.86 180)
 		(effects
@@ -5955,85 +5986,6 @@
 			(project "Poryecto_bioreactor"
 				(path "/408c0b9b-6243-46a6-b02f-3125cc0037ea"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 80.01 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a2e6269-6684-4e57-ae2a-0f8c21307167")
-		(property "Reference" "#PWR01"
-			(at 83.82 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 76.2 44.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 80.01 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80f845f2-8687-4237-b039-7c0937ef6770")
-		)
-		(instances
-			(project "Poryecto_bioreactor"
-				(path "/408c0b9b-6243-46a6-b02f-3125cc0037ea"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
